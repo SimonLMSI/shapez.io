@@ -228,11 +228,9 @@ dialogs:
         desc: 您是否确认删除 '<title>'？删除后不可恢复！
     modsDifference:
         title: Mod Warning
-        desc: The currently installed mods differ from the mods the savegame was created
-            with. This might cause the savegame to break or not load at all. Are
-            you sure you want to continue?
-        missingMods: Missing Mods
-        newMods: Newly installed Mods
+        desc: 您现在安装的模组与您上次保存游戏的模组有差异！这可能导致您无法读取您的存档或者造成其他问题。 您确定要继续吗？
+        missingMods: 模组丢失
+        newMods: 新安装的模组
 ingame:
     keybindingsOverlay:
         moveMap: 移动地图
@@ -292,7 +290,7 @@ ingame:
             delivered:
                 title: 交付
                 description: 交付到中心基地的图形。
-        noShapesProduced: 您还没有生产任何图形。
+        noShapesProduced: 您目前还没有生产任何图形。
         shapesDisplayUnits:
             second: <shapes> / 秒
             minute: <shapes> / 分
@@ -302,11 +300,11 @@ ingame:
         buildingsPlaced: 设施数量
         beltsPlaced: 传送带数量
     tutorialHints:
-        title: 需要帮助？
+        title: 需要帮助吗？
         showHint: 显示帮助
         hideHint: 关闭
     blueprintPlacer:
-        cost: 成本
+        cost: 造价
     waypoints:
         waypoints: 地图标记
         hub: 中心
@@ -942,7 +940,7 @@ about:
         本游戏由 <a href="https://github.com/tobspr" target="_blank">Tobias
         Springer</a>（我）开发，并且已经开源。<br><br>
 
-        如果您想参与开发，请查看 <a href="<githublink>" target="_blank">shapez.io on github</a>。<br><br>
+        如果您也想参与开发，请查看 <a href="<githublink>" target="_blank">shapez.io on github</a>。<br><br>
 
         这个游戏的开发获得了 Discord 社区内热情玩家的巨大支持。诚挚邀请您加入我们的 <a href="<discordlink>" target="_blank">Discord 服务器</a>！<br><br>
 
@@ -1005,7 +1003,7 @@ tips:
     - 设施建得离基地太近很可能会妨碍以后的工作。
     - 使用升级列表中每个形状旁边的固定图标将其固定到屏幕上。
     - 地图无限，放飞想象，尽情创造。
-    - 向您推荐Factorio！这是我最喜欢的游戏。向神作致敬！
+    - 向您推荐Factorio！这是我最喜欢的游戏。让我们向神作致敬！
     - 四向切割机从右上开始进行顺时针切割！
     - 在主界面您可以下载您的游戏存档文件！
     - 这个游戏有很多有用的快捷键！一定要到快捷键页面看看。
